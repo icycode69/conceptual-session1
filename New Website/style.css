@@ -41,7 +41,8 @@ align-items: center;
 background-image: url("/images/background.png"),
 linear-gradient(45deg,rgba(8, 8, 8),rgba(53, 53, 53));
 background-position: center;
-
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 .title{
@@ -63,4 +64,48 @@ background-position: center;
 .btn:hover{
     color: blue;
     cursor: pointer;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+.about{
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.icon{
+    width: 70px;
+}
+.boxbtn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.boxtitle{
+    padding: 10px;
+
+}
+.box-description{
+    padding: 5px;
+}
+.surface-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:black ;
+    box-shadow: 20px;
 }
